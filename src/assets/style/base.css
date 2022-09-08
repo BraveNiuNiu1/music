@@ -1,0 +1,32 @@
+/* 样式重置，公共样式 */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #000 url(../img/bg.png) center top no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+
+@keyframes avatar-rotate {
+  0% {
+    transform: rotate(0)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
